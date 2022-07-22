@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0095f811;
+    user-select: none;
+}
+
+#contact {
+    margin-top: 40px;
+    font-size: 11px;
+    color: #fff;
+}
+
+#contact a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#contact:hover,
+#contact a:hover {
+    color: #0095f8;
+}
+
+#start-prompt {
+    width: 75vw;
+    height: 65vh;
+    min-height: 450px;
+    box-shadow: 11px 5px 11px #302e2e16;
+    border: 0.5px solid #b8b8b849;
+    background-color: #fff;
+}
+
+#express-view-logo {
+    margin-left: 6%;
+    width: 30%;
+    margin-top: 35px;
+    pointer-events: none;
+}
+
+#adobe-express-logo {
+    margin-left: 10%;
+    margin-top: 35px;
+    width: 14%;
+    pointer-events: none;
+}
+
+#info {
+    margin-left: 12%;
+}
+
+#control {
+    margin-top: 7%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+#hide {
+    background: transparent;
+    color: #0095f8;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+#launch {
+    background-color: #0095f8;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    height: 35px;
+    box-shadow: 9px 9px 1px #00000016;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+.disclaimer {
+    position: absolute;
+    right: 15%;
+    top: 20%;
+    box-shadow: 12px 11px 0 #0095f8;
+    width: 20%;
+    height: 39%;
+    padding: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* border: 1px solid black; */
+}
+
+.disclaimer ul {
+    height: 140px;
+    list-style-type: square;
+    color: #302e2e;
+}
+
+.disclaimer::-webkit-scrollbar {
+    width: 0.4rem;
+    /* width of the entire scrollbar */
+}
+
+.disclaimer::-webkit-scrollbar-track {
+    background: transparent;
+    /* color of the tracking area */
+}
+
+.disclaimer::-webkit-scrollbar-thumb {
+    background-color: #52525250;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+}
+
+.disclaimer::-webkit-scrollbar-thumb:hover {
+    background-color: #0095f850;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+}
